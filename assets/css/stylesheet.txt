@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-f {
+    width: 13px;
+    height: 28px;
+    background-position: -5px -5px;
+}
+
+.sprite-g {
+    width: 29px;
+    height: 28px;
+    background-position: -28px -5px;
+}
+
+.sprite-insta {
+    width: 27px;
+    height: 27px;
+    background-position: -67px -5px;
+}
+
+.sprite-tw {
+    width: 32px;
+    height: 27px;
+    background-position: -67px -42px;
+}

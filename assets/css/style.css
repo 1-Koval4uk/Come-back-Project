@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/background.png);
+}
+.wrap{
+    margin: 25px auto;
+    max-width: 1360px;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 760px;
+    background: url(../img/header-back.png) center no-repeat;
+}
+.content-hd{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+.logo-bar{
+    max-width: 110px;
+    width: 100%;
+    max-height: 35px;
+}
+.logo-bar a{
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Teko';
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.logo-bar a::before{
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 30px;
+    background-color: #de8a8e;
+}
+.logo-bar a::after{
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 30px;
+    background-color: #de8a8e;
+}
+.content-hd nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 450px;
+    width: 100%;
+    max-height: 35px;
+    height: 100%;
+}
+.content-hd nav li{
+    list-style: none;
+}
+.content-hd nav li a{
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Teko";
+    color: rgb(0, 0, 0);
+}
+.content-hd nav li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: width .3s;
+}
+.content-hd nav li a:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+.story{
+    width: 100%;
+    height: 630px;
+}
+.content-st{
+    width: 100%;
+    height: 630px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.our-story{
+    background: url(../img/flowers/herbas.png);
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-story h1{
+    margin-top: 0px;
+    font-size: 35px;
+    font-family: "Teko";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.our-story h1::after{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 30px;
+    background-color: #de8a8e;
+    margin: auto;
+}
+.our-story span{
+    max-width: 390px;
+    font-size: 18px;
+    font-family: "Teko";
+    color: rgb(0, 0, 0);
+    text-align: center;
+    z-index: 64;
+}
+.img-beans{
+    background: url(../img/blck-img/IMAGE\ 1.png) center no-repeat;
+    width: 100%;
+    opacity: 70%;
+}
+.fresh{
+    width: 100%;
+    height: 630px;
+}
+.content-fr{
+    width: 100%;
+    height: 630px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.img-fresh{
+    background: url(../img/blck-img/IMAGE\ 2.png) center no-repeat;
+    width: 100%;
+    opacity: 70%;
+}
+.local{
+    width: 100%;
+    height: 630px;
+}
+.content-lc{
+    width: 100%;
+    height: 630px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.img-lc{
+    background: url(../img/blck-img/IMAGE\ 3.png) center no-repeat;
+    width: 100%;
+    opacity: 70%;
+}
+.fish{
+    width: 100%;
+    height: 630px;
+    background: url(../img/blck-img/Layer\ 2.png) center;
+    opacity: 80%;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background: url(../img/blck-img/herbas\ copy\ 3.png);
+}
+.content-ft{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Teko';
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin: 0;
+    max-height: 35px;
+}
+#logo::before{
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 30px;
+    background-color: #de8a8e;
+}
+#logo::after{
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 30px;
+    background-color: #de8a8e;
+}
+.content-ft ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 165px;
+    width: 100%;
+    max-height: 35px;
+    padding: 0px;
+    margin: 0;
+}
+.content-ft ul li{
+    list-style: none;
+
+}
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-f {
+    width: 13px;
+    height: 28px;
+    background-position: -5px -5px;
+}
+
+.sprite-g {
+    width: 29px;
+    height: 28px;
+    background-position: -28px -5px;
+}
+
+.sprite-insta {
+    width: 27px;
+    height: 27px;
+    background-position: -67px -5px;
+}
+
+.sprite-tw {
+    width: 32px;
+    height: 27px;
+    background-position: -67px -42px;
+}
+.sprite:hover{
+    opacity: 60%;
+}
+
+
+@media screen and (max-width:440px){
+    .content-hd{
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .content-hd nav{
+        padding-top: 50px;;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-st{
+        flex-direction: column;
+    }
+    .img-beans{
+        height: 100%;
+    }
+    .our-story{
+        padding: 30px 0;
+    }
+    .content-fr{
+        flex-direction: column-reverse;
+    }
+    .img-fresh{
+        height: 100%;
+    }
+    .our-story{
+        padding: 30px 0;
+    }
+    .content-lc{
+        flex-direction: column;
+    }
+    .img-lc{
+        height: 100%;
+    }
+    .our-story{
+        padding: 30px 0;
+    }
+    .fish{
+        display: none;
+    }
+}
+
+
+  
